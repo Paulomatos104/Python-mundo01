@@ -1,0 +1,8 @@
+frase = input('Digite uma frase: ')
+print(frase.upper())
+print(frase.lower())
+caracteres = len(frase.replace(" ", ""))
+corte = frase.split()
+print(f'A frase tem {caracteres} letras')
+primeiro = len(corte[0])
+print(f'A primeira palavra tem {primeiro} letras')
